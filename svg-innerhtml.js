@@ -6,8 +6,8 @@
  *
  * Minor modifications by Chris Price to only polyfill when required.
  */
-(function() {
-  if ('innerHTML' in SVGElement.prototype) {
+(function(SVGElement) {
+  if (!SVGElement || 'innerHTML' in SVGElement.prototype) {
     return;
   }
   var serializeXML = function(node, output) {
@@ -81,4 +81,4 @@
       };
     }
   });
-})();
+})((1, eval)('this').SVGElement);
