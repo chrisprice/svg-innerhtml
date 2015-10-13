@@ -3,6 +3,8 @@
  * Copyright(c) 2010, Jeff Schiller
  *
  * Licensed under the Apache License, Version 2
+ *
+ * Minor modifications by Chris Price to only polyfill when required.
  */
 (function() {
   if ('innerHTML' in SVGElement.prototype) {

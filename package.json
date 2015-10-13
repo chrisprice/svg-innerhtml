@@ -1,0 +1,20 @@
+{
+  "name": "svg-innerhtml",
+  "version": "1.0.0",
+  "description": "A polyfill for innerHTML on SVG nodes on unsupported browsers",
+  "main": "svg-innerhtml.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisprice/svg-innerhtml.git"
+  },
+  "keywords": [
+    "svg",
+    "innerhtml"
+  ],
+  "author": "Chris Price, Jeff Schiller",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/chrisprice/svg-innerhtml/issues"
+  },
+  "homepage": "https://github.com/chrisprice/svg-innerhtml#readme"
+}
